@@ -1,0 +1,18 @@
+<view>
+<text>{{text}}</text>
+</view>
+<view wx:if="{{Mone}}">
+  <button bindtap="a">不知道哎，要不你帮我测测看？</button>
+  <button bindtap="b">你都多大了还信这个，幼不幼稚</button>
+</view>
+<view wx:if="{{Mtwo}}">
+  <button bindtap="c">好吧</button>
+  <button bindtap="d">好的</button>
+</view>
+<view wx:if="{{Athree}}">
+  <button bindtap="e">故意抓住她的手</button>
+  <button bindtap="f">老老实实抽牌</button>
+</view>
+<view wx:if="{{Mfour}}">
+  <button bindtap="g">能够抓住你就是我此生最大的幸运</button>
+</view>
